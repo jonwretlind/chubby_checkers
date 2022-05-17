@@ -1,3 +1,27 @@
-h1 {
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+
+#Title {
+  font-family: 'Shrikhand', cursive;
   text-align: center;
+  color: #4863A0;
+  /* steel blue */
+}
+
+.container {
+  perspective: 1000px;
+  width: 1000px;
+  height: 450px;
+  overflow: visible;
+  position: relative;
+  margin: 0 auto;
+  border: 1px dotted green;
+}
+
+/* using the i tag for pieces */
+i {
+  display: block;
+  position: absolute;
+  z-index: 10;
+  border-radius: 50%;
+  border: 1px solid green;
 }
